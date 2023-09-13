@@ -1,0 +1,19 @@
+# some information about you
+name: "Nave-wata"
+nickname: "Nave3"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: ""
+image: "images/author/Nave-wata.png"
+
+# give your some contact information. they will be used in the footer
+contactInfo:
+  github: Nave-wata
+
+# some summary about what you do
+summary:
+- 私は開発者です
+- 私はWEBアプリケーションエンジニアです
+- 主にバックエンドを開発しています
+- 私は新しい技術が大好きです!
+- 楽しいプロジェクトに取り組むのが大好きです!

@@ -1,0 +1,11 @@
+services:
+  hugo:
+    image: klakegg/hugo:0.111.3-ext-ubuntu-onbuild
+    container_name: hugo
+    entrypoint: tail -f /dev/null
+    user: 1000:1000
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "1313:1313"

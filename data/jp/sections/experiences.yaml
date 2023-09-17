@@ -1,0 +1,83 @@
+# section information
+section:
+  name: 経歴
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+  - company:
+      name: 工業高校
+      overview: 工業高校に入学し，ハードウェアやソフトウェア，ネットワークなどの様々なものづくり関連の知識を身につける．
+    positions:
+      - designation: 
+        start: 2018年4月
+        end: 2021年3月
+        responsibilities:
+          - ライントレースロボットの作成（組み立て・一部のコーディング）
+          - 電子回路の学習
+          - プログラミングの基礎学習（C・Python3）
+          - Pythonを用いて3次関数までの解・増減表の描画
+          - など
+
+  - company:
+      name: 大学・情報系学部
+      overview: 高校時代に最も楽しかったソフトウェア開発をより深く学ぶために，情報系学部に入る
+      start: 2021年4月
+      end: 2025年3月（予定）
+    positions:
+      - designation: 学業
+        responsibilities:
+          - ソフトウェア開発の上流から下流工程の知識について学ぶ
+          - C言語 や Java の基礎的なプログラミングを学ぶ
+          - ネットワーク設計の基礎的な学習
+          - アルゴリズムの学習
+          - データベース設計（SQL）
+          - 情報セキュリティ
+          - 人工知能
+          - Unixの利用
+
+      - designation: 趣味・部活
+        responsibilities:
+          - 複数のハッカソンへ参加（Androidアプリ・Webアプリケーション）
+          - RaspberryPIを利用したサーバ・監視サーバ構築
+          - Androidアプリで放置ゲームを作成（中断）
+          - 素の PHP で掲示板アプリケーションの作成
+          - 部活動で文化祭的なもので利用したモバイルオーダーアプリ
+          - リアルタイムチャットWEBアプリケーションの作成（開発人数ほぼ1人．一応チーム開発）
+
+      - designation: 資格
+        responsibilities:
+          - 基本情報技術者試験 合格（令和3年秋季）
+          - 応用情報技術者試験 合格（令和4年秋季）
+          - 普通自動車第一種免許（AT限定）
+
+  - company:
+      name: インターンシップ
+      overview: "" 
+    positions:
+      - designation: GMOインターネットグループ株式会社
+        urlText: エンジニア職向け5days（Webアプリケーション開発コース）
+        url: https://recruit.gmo.jp/news/detail/80
+        start: 2023年9月4日
+        end: 2023年9月8日
+        responsibilities:
+          - 与えられたテーマを解決するためのWEBアプリケーションを開発
+          - 開発環境の構築
+          - Google Calendar APIとの連携
+          - 本番環境へのデプロイ
+          - CI/CD
+          - 少しフロントエンドとバックエンド開発
+
+      - designation: オフィスナビ株式会社
+        urlText: 【大阪／梅田】自社WEBサイト開発のインターン募集！
+        url: https://01intern.com/job/3127.html
+        start: 2023年7月
+        end: 2024年7月（予定）
+        responsibilities:
+          - 自社WEBサイト開発
+          - フロントエンド・バックエンド開発

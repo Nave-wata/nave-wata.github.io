@@ -9,11 +9,13 @@ image: "images/author/Nave-wata.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   github: Nave-wata
-
+  twitter:
+    icon: x-twitter
+    url: https://twitter.com/wataribit0
+    text: wataribit0
+  
 # some summary about what you do
 summary:
-- 私は開発者です
 - 私はWEBアプリケーションエンジニアです
-- 主にバックエンドを開発しています
-- 私は新しい技術が大好きです!
-- 楽しいプロジェクトに取り組むのが大好きです!
+- 主にサーバサイドを開発しています
+- 私は新しい技術が大好きです！

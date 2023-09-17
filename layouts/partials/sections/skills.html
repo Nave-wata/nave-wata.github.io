@@ -1,0 +1,76 @@
+{{ $sectionID := replace (lower .section.name) " " "-" }}
+{{ if .section.id }}
+{{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container-fluid anchor pb-5 skills-section">
+    {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}
+    </h1>
+    {{ else }}
+    <h1 class="text-center" style="display: none">
+        <span id="{{ $sectionID }}"></span>{{ .section.name }}
+    </h1>
+    {{ end }}
+    <div class="container d-flex-block">
+        {{ if .skills.primaryTitle }}
+        <hr />
+        <h4 class="font-weight-bold">{{ .skills.primaryTitle }}</h4>
+        {{ end }}
+        {{ range .skills.primary }}
+        <div class="row" id="primary-skills">
+            {{ range .section }}
+            {{ partial "cards/skill.html" . }}
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ if .skills.secondaryTitle }}
+        <br />
+        <hr />
+        <h4 class="font-weight-bold">
+            {{ .skills.secondaryTitle }}
+        </h4>
+        {{ end }}
+        {{ range .skills.secondary }}
+        <div class="row" id="primary-skills">
+            {{ range .section }}
+            {{ partial "cards/skill.html" . }}
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ if .skills.tertiaryTitle }}
+        <br />
+        <hr />
+        <h4 class="font-weight-bold">
+            {{ .skills.tertiaryTitle }}
+        </h4>
+        {{ end }}
+        {{ range .skills.tertiary }}
+        <div class="row" id="tertiary-skills">
+            {{ range .section }}
+            {{ partial "cards/skill.html" . }}
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ if .skills.leaningTitle }}
+        <br />
+        <hr />
+        <h4 class="font-weight-bold">
+            {{ .skills.leaningTitle }}
+        </h4>
+        {{ end }}
+        {{ range .skills.leaning }}
+        <div class="row" id="leaning-skills">
+            {{ range .section }}
+            {{ partial "cards/skill.html" . }}
+            {{ end }}
+        </div>
+        {{ end }}
+        <br />
+        <hr />
+        <div class="row">
+            一部アイコン：<a href="https://skillicons.dev" target="_blank">https://skillicons.dev</a>
+        </div>
+    </div>
+</div>

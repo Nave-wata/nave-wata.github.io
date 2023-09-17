@@ -1,0 +1,39 @@
+section:
+  name: 私は
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: サーバサイドエンジニア
+
+# a summary about you
+summary: '<br/>
+私は情報系の学部に在籍している大学生です．普段はWEBアプリケーション開発を行っており，サーバサイドの開発が得意です．
+WEBアプリケーション開発には様々なフレームワークを利用してきましたが，[Laravel](https://laravel.com/) が一番のお気に入りです．<br/>
+また，過去にはAndroidアプリや機械学習といった，様々なソフトウェア開発を行ってきたことがあります．<br/>
+<br/>
+<h5>**競技プログラミングから逃走中**</h5>
+'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: GitHub
+    icon: fab fa-github
+    url: https://github.com/Nave-wata
+  - name: Twitter
+    icon: fab fa-x-twitter
+    url: https://twitter.com/wataribit0
+
+badges:
+  - type: 位置合わせ
+
+githubReadmeStats: '
+<p align="center"> 
+  <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=Nave-wata&show_icons=ture&count_private=true" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Nave-wata&column=4"/>
+</p>
+'

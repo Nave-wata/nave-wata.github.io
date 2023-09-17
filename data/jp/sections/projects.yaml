@@ -1,0 +1,199 @@
+section:
+  name: プロジェクト
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+buttons:
+  - name: "全て"
+    filter: all
+  - name: 個人
+    filter: "個人"
+  - name: チーム
+    filter: "チーム"
+  - name: Python
+    filter: Python
+  - name: Java
+    filter: Java
+  - name: "PHP"
+    filter: "PHP"
+  - name: "TypeScript"
+    filter: "TypeScript"
+  - name: "JavaScript"
+    filter: "JavaScript"
+  - name: "HTML"
+    filter: "HTML"
+  - name: "CSS"
+    filter: "CSS"
+  - name: C++
+    filter: "C++"
+  - name: Bash
+    filter: "Bash"
+  - name: "Laravel"
+    filter: "Laravel"
+  - name: "Flask"
+    filter: "Flask"
+  - name: "Reactjs"
+    filter: "Reactjs"
+  - name: Vuejs
+    filter: Vuejs
+  - name: "Nextjs"
+    filter: "Nextjs"
+  - name: "Expressjs"
+    filter: "Expressjs"
+  - name: "Material UI"
+    filter: "Material UI"
+  - name: "Bootstrap"
+    filter: "Bootstrap"
+  - name: "Android Studio"
+    filter: "Android Studio"
+  - name: "Google Sheets API"
+    filter: "Google Sheets API"
+  - name: "Google Calendar API"
+    filter: GoogleCalendarAPI
+  - name: "Google Apps Script"
+    filter: "Google Apps Script"
+  - name: "CI/CD"
+    filter: "CI/CD"
+  - name: "Heroku"
+    filter: "Heroku"
+  - name: "Conoha"
+    filter: "Conoha"
+  - name: Azure
+    filter: "Azure"
+
+projects:
+  - name: hira-chan
+    role: 開発者
+    timeline: "2022年4月27日 ~ 現在"
+    repo: https://github.com/oithxs/hira-chan
+    summary: 学内限定で利用することを想定した掲示板WEBアプリ
+    tags: [
+      "Laravel",
+      "Reactjs",
+      "Material UI",
+      "PHP",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "Bootstrap",
+      "チーム",
+    ]
+
+  - name: 走れ！すすむ君！
+    role: サポート
+    timeline: "2023年7月5日 ~ 現在"
+    repo: https://github.com/Obanyan2023/2023-Kitayama
+    summary: 文化祭的なものの出し物．ゼミで作成
+    tags: [ "Reactjs", "Expressjs", "TypeScript", "チーム" ]
+
+  - name: TECHMEET
+    role: サーバサイド
+    timeline: "2023年9月4日 ~ 2023年9月8日"
+    repo: https://github.com/Nave-wata/gmo-group-b-beta
+    url: https://gmo-b-beta.takayaman2180.net/
+    summary: インターンシップで開発．技術系イベントの開催をサポートし，盛り上げるWebアプリケーション
+    tags: [ "Nextjs", "Expressjs", "TypeScript", "GoogleCalendarAPI", "Conoha", "CI/CD", "チーム" ]
+
+  - name: 落ちものゲーム
+    role: 開発者
+    timeline: "2023年5月28日 ~ 2023年7月19日"
+    repo: https://github.com/Nave-wata/Software_Engineering_Exercise
+    summary: ncursesを用いた他プレイヤーと通信対戦可能なパズルゲームの開発
+    tags: [ "C++", "個人" ]
+
+  - name: 混雑確認システム
+    role: サーバサイド
+    timeline: "2023年6月20日 ~ 2023年8月5日"
+    # repo: 
+    disable: true
+    summary: 大学のオープンキャンパスで利用した混雑確認システム
+    tags: [
+      "Nextjs",
+      "JavaScript",
+      "Google Sheets API",
+      "Azure",
+      "チーム"
+    ]
+
+  - name: 混雑管理システム（教員への連絡）
+    role: 開発者
+    timeline: "2023年7月2日 ~ 2023年7月8日"
+    # repo: 
+    summary: Google スプレッドシートの変化を読み取り Email, Slack, MS Teams, Discord へ自動的に連絡を行うシステム
+    tags: [ "Bash", "Google Sheet API", "個人" ]
+
+  - name: 場所限定の掲示板サイト
+    role: サーバサイド
+    timeline: "2023年4月23 ~ 2023年4月29日"
+    repo: https://github.com/oithxs/MonEgg
+    summary: 特定の場所でのみ閲覧・書き込みができ，旅行を楽しくするようなWebアプリを作成
+    tags: [
+      "Laravel",
+      "PHP",
+      "Reactjs",
+      "TypeScript",
+      "チーム"
+    ]
+
+  - name: Shelfie
+    role: "サーバサイド"
+    timeline: "2023年2月11日 ~ 2023年2月19日"
+    repo: https://github.com/kc3hack/2023_F
+    summary: 本屋に出かけた際, 「この漫画何巻まで買ったっけ?」「この本前に買ったような気が...」という不便を解消するための書籍管理アプリです.（ハッカソン）
+    tags: [
+      "FastAPI",
+      "Python",
+      "TypeScript",
+      "Vuejs",
+      "チーム"
+    ]
+
+  - name: mobile-order
+    role: サポート
+    repo: https://github.com/oithxs/mobile-order
+    timeline: "2022年8月23日 ~ 2022年11月4日"
+    repo: https://github.com/oithxs/mobile-order
+    summary: 文化祭的なものの出し物で，モバイルオーダーWEBアプリをしようするために作成
+    tags: [
+      "Python",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Flask",
+      "Bootstrap",
+      "Google Sheets API",
+      "Google Apps Script",
+      "Heroku",
+      "チーム"
+    ]
+
+  - name: 放置ゲーム（Android アプリケーション）
+    role: 開発者
+    timeline: "2022年1月25日 ~ 2022年3月30日"
+    repo: https://github.com/Nave-wata/MyDungeon
+    summary: Androidアプリで私がやりたいゲームを作成しようとした．考えるうちに規模が大きくなりすぎて中断．
+    tags: [ "Java", "Android Studio", "個人" ]
+
+  - name: 補聴器いらずアプリ
+    role: 開発者
+    timeline: "2022年1月 ~ 2022年2月"
+    repo: https://github.com/Nave-wata/G2021-HirakataA
+    summary: Pythonで作成したソフトウェアを Android アプリケーションに移植（無駄に複数リポジトリ存在）
+    tags: [ "Java", "Android Studio", "個人" ]
+
+  - name: 補聴器いらず・改
+    role: 開発者
+    timeline: "2022年1月8 ~ 2022年1月12日"
+    repo: https://github.com/Nave-wata/G2021-maikataA_py_mine
+    summary: AIを利用して取り込んだ音の種類を判別し，騒音時の増幅量を減少（させようとした）
+    tags: [ "Python", "個人" ]
+
+
+  - name: 補聴器いらず
+    role: 開発者
+    timeline: "2021年11月28 ~ 2021年12月31"
+    repo: https://github.com/maikataA/G2021-hirakataA
+    summary: イヤホンを使用した外音増幅プログラムの開発
+    tags: [ "Python", "チーム" ]

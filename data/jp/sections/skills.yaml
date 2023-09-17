@@ -1,0 +1,362 @@
+section:
+  name: スキル
+  id: skills
+  enable: true
+  showOnNavbar: true
+  weight: 2
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  primaryTitle: 普段から使っている
+  primary:
+    - section:
+      - name: Laravel
+        logo: images/logos/laravel.png
+        url: https://laravel.com
+        summary: '
+Laravelを利用したリアルタイムチャットWEBアプリケーションを作成したことがある．
+実務（インターンシップ）で利用している．
+'
+
+      - name: React
+        logo: images/logos/React.png
+        url: https://react.dev/
+        summary: '
+複数のWEBアプリケーション開発で利用したことがある．
+'
+
+      - name: Material UI
+        logo: images/logos/MaterialUI.png
+        url: https://mui.com/
+        summary: '
+Material UIを利用したフロントエンド開発を行っている・勉強中．
+'
+
+    - section:
+      - name: PHP
+        logo: images/logos/PHP.png
+        url: https://www.php.net/
+        summary: '
+フレームワークを利用しない簡単な掲示板WEBアプリケーションを作成したことがある．
+'
+  
+      - name: TypeScript
+        skillIcon: https://skillicons.dev/icons?i=ts&theme=light
+        url: https://www.typescriptlang.org/
+        summary: '
+個人・チームでのフロントエンド開発でほぼ常に利用している．
+'
+
+      - name: JavaScript
+        skillIcon: https://skillicons.dev/icons?i=js&theme=light
+        url: https://developer.mozilla.org/ja/docs/Web/JavaScript
+        summary: '
+ライブラリやフレームワークを利用せずに動的なWEBページを作成できる．
+実務（インターンシップ）で利用している．
+'
+
+      - name: HTML
+        logo: images/logos/HTML.png
+        url: https://developer.mozilla.org/ja/docs/Web/HTML
+        summary: '
+素のHTMLを利用することは少ないが， bladeテンプレート や hugo のhtmlでフロントエンドを開発したことがある．
+'
+
+      - name: CSS
+        logo: images/logos/CSS.png
+        url: https://developer.mozilla.org/ja/docs/Web/CSS
+        summary: '
+Material UIで記述することがある．
+直接 CSS を記述することは少ないが，ディベロッパーツールでコードを読むことができる．
+'
+
+      - name: Scss
+        logo: images/logos/Scss.png
+        url: https://sass-lang.com/
+        summary: '
+フロントエンドのデザインをライブラリなどを使用せずに Scss で記述できる．
+レスポンシブ対応のWEBサイトを開発できる．
+'
+
+    - section:
+      - name: GitHub
+        skillIcon: https://skillicons.dev/icons?i=github
+        url: https://github.com/
+        summary: '
+バージョン管理ツールとして利用し始めて，2年ほどになる．
+基礎的な GitHub の機能を理解している．
+'
+
+      - name: Git
+        skillIcon: https://skillicons.dev/icons?i=git&theme=light
+        url: https://git-scm.com/
+        summary: '
+コンフリクト解消以外の基本的な動作を CUI で行っている．
+'
+
+    - section:
+      - name: Linux
+        skillIcon: https://skillicons.dev/icons?i=linux&theme=light
+        # url: https://www.linux.org/
+        summary: '
+ソフトウェア開発を行う環境として常に利用している．
+Ubuntu Server をサーバとしたWEBアプリケーションをデプロイしたことがある．
+'
+
+      - name: Docker
+        logo: images/logos/Docker.png
+        url: https://www.docker.com/
+        summary: '
+個人・チーム開発問わず，自ら開発環境を構築している．
+docker compose を利用した複数のコンテナでの開発環境を構築できる．
+'
+
+    - section:
+      - name: Nginx
+        skillIcon: https://skillicons.dev/icons?i=nginx&theme=light
+        url: https://nginx.org/
+        summary: '
+サーバに直接インストールすることや，dockerで利用することがある．
+dockerのnginxコンテナで本番環境デプロイを行ったことがある（SSL/TLS）
+'
+
+      - name: Node.js
+        logo: images/logos/Nodejs.png
+        url: https://nodejs.org/
+        summary: '
+サーバに直接インストールすることや，dockerで利用することがある．
+Azure の App Service（Node.js）でオープンキャンパスで利用するシステムを構築したことがある．
+'
+
+      - name: MariaDB
+        logo: images/logos/MariaDB.png
+        url: https://mariadb.org/
+        summary: '
+素のSQLで簡単なテーブル設計を行うことができる．
+Laravel 等のフレームワークを利用すると，ある程度複雑なテーブル設計を行うことができる．
+'
+
+  secondaryTitle: 一応できる
+  secondary:
+    - section:
+      - name: C
+        skillIcon: https://skillicons.dev/icons?i=c&theme=light
+        url: https://learn.microsoft.com/ja-jp/cpp/c-language
+        summary: '
+ライブラリを利用せずに基礎的なアルゴリズムを利用できる．
+ポインタを利用した構造体を作成できる．
+'
+
+      - name: C++
+        skillIcon: https://skillicons.dev/icons?i=cpp&theme=light
+        url: https://docs.microsoft.com/ja-jp/cpp/cpp/
+        summary: '
+ncurses を利用して落ちものゲームを作成したことがある．
+競プロで使うとすれば C++（使えるとは言えない…）
+'
+      
+      - name: Java
+        skillIcon: https://skillicons.dev/icons?i=java&theme=light
+        url: https://docs.oracle.com/javase/jp/13/docs/api/overview-summary.html
+        summary: '
+簡単な CUI アプリケーションを作成したことがある．
+Android アプリケーション開発をしたことがある．
+'
+
+      - name: Python3
+        logo: images/logos/Python.png
+        url: https://docs.python.org/ja/3/
+        summary: '
+機械学習に用いたことがある．
+取り込んだ音を増幅する簡単な補聴器代わりのソフトウェアを作成したことがある．
+簡単な Excel ファイルの操作を行ったことがある．
+'
+
+      - name: Bash
+        skillIcon: https://skillicons.dev/icons?i=bash
+        # url: 
+        summary: '
+開発環境の構築に利用することがある．
+Google Spread シートのデータから，Slack や Discord 等の API を叩いてメッセージを送信するソフトウェアを作成したことがある．
+'
+
+    - section:
+      - name: Android Studio
+        logo: images/logos/AndroidStudio.png
+        url: https://developer.android.com/
+        summary: '
+Pythonで作成した取り込んだ音を増幅する簡単な補聴器代わりソフトウェアを移植したことがある．
+SQLiteを利用してゲーム進行状況を保存する放置ゲームを途中まで作成したことがある．
+'
+
+      - name: Next.js
+        skillIcon: https://skillicons.dev/icons?i=nextjs
+        url: https://nextjs.org/
+        summary: '
+オープンキャンパスで利用するWEBアプリケーションを作成したことがある．
+Google認証を用いて Google Calendar API からカレンダーを操作するアプリケーションを作成したことがある．
+'
+
+    - section:
+      - name: BootStrap
+        skillIcon: https://skillicons.dev/icons?i=bootstrap&theme=light
+        url: https://getbootstrap.com/
+        summary: '
+WEBサイトのデザインに利用したことがある．
+'
+
+      - name: tailwind
+        logo: images/logos/tailwindcss.svg
+        url: https://tailwindcss.com/
+        summary: '
+WEBサイトのデザインに利用したことがある．
+'
+
+    - section:
+      - name: MySQL
+        skillIcon: https://skillicons.dev/icons?i=mysql
+        url: https://www.mysql.com/
+        summary: '
+MariaDBを利用する前に利用していた．
+'
+
+      - name: PostgreSQL
+        logo: images/logos/PostgreSQL.png
+        url: https://www.postgresql.org/
+        summary: '
+与えられたテーマに従い，簡単なテーブル設計を行い，SQL の記述で 作成・読み出し・更新・削除を行ったことがある．
+'
+
+      - name: Raspberry PI
+        logo: images/logos/RaspberryPI.png
+        url: https://www.raspberrypi.com/
+        summary: '
+Proxmoxを用いたサーバを構築したことがある．
+Zabbixを利用した監視サーバを構築したことがある．
+'
+
+  tertiaryTitle: 触れたことがある
+  tertiary:
+    - section:
+      - name: Express
+        skillIcon: https://skillicons.dev/icons?i=express
+        url: https://expressjs.com/
+        summary: '
+バックエンドフレームワークとしてルーティング・レスポンスと言った初歩的な機能を利用したことがある．
+'
+
+      - name: FastAPI
+        skillIcon: https://skillicons.dev/icons?i=fastapi&theme=light
+        url: https://fastapi.tiangolo.com/
+        summary: '
+データベースとの連携を行い，提供したAPIからデータの取得・削除と言った簡単なデータ操作を行ったことがある．
+'
+
+      - name: Flask
+        skillIcon: https://skillicons.dev/icons?i=flask&theme=light
+        url: https://flask.palletsprojects.com/
+        summary: '
+Googleスプレッドシートと連携を行い，データ操作を行ったことがある．
+'
+
+      - name: Unity
+        skillIcon: https://skillicons.dev/icons?i=unity
+        url: https://unity.com/
+        summary: '
+簡単な2Dゲーム（チュートリアル）を作成したことがある．
+'
+
+    - section:
+      - name: Go
+        logo: images/logos/Go.png
+        url: https://go.dev/
+        summary: '
+標準入出力の利用と言った初歩的なプログラミングを行ったことがある．
+'
+
+      - name: C#
+        skillIcon: https://skillicons.dev/icons?i=cs
+        url: https://learn.microsoft.com/ja-jp/dotnet/csharp/
+        summary: '
+Unityを利用する際に簡単なコードを記述したことがある．
+'
+
+    - section:
+      - name: GitHub Actions
+        logo: images/logos/GitHubActions.png
+        url: https://github.co.jp/features/actions
+        summary: '
+CI/CD のために利用したことがある．
+'
+
+      - name: Vite
+        logo: images/logos/Vite.svg
+        url: https://ja.vitejs.dev/
+        summary: '
+Laravel フロントエンドのビルドツールとして利用したことがある．
+'
+
+      - name: webpack
+        logo: images/logos/webpack.png
+        url: https://webpack.js.org/
+        summary: '
+Laravel フロントエンドのビルドツールとして利用したことがある．
+'
+
+    - section:
+      - name: Redis
+        logo: images/logos/Redis.png
+        url: https://redis.com/
+        summary: '
+Laravel の WebSocket を利用するために利用したことがある．
+'
+
+      - name: AI
+        skillIcon: https://skillicons.dev/icons?i=ai&theme=light
+        # url: 
+        summary: '
+Pythonを用いて数字の認識や，モデルを作成して画像認識，文書生成などを行ったことがある．
+Pythonを用いて取り込んだ音声から種類を判別するAIを作成したことがある（低制度）
+'
+
+      - name: Figma
+        logo: images/logos/Figma.svg
+        url: https://www.figma.com/
+        summary: '
+フロントエンドのデザインとして静的なデザイン作成に利用したことがある．
+'
+
+  leaningTitle: 勉強中
+  leaning:
+    - section:
+      - name: AWS
+        skillIcon: https://skillicons.dev/icons?i=aws
+        url: https://aws.amazon.com/
+        summary: '
+作成しているWEBアプリケーションの検証用サーバとして利用（しようとしてリソースが足らずに失敗）
+無料枠の範囲でたまに利用中．
+'
+
+      - name: Azure
+        logo: images/logos/Azure.svg
+        url: https://azure.microsoft.com/
+        summary: '
+オープンキャンパスに利用するシステムのデプロイに利用．
+'
+
+      - name: Google Cloud Platform
+        logo: images/logos/GCP.png
+        url: https://console.cloud.google.com/
+        summary: '
+Google認証・スプレッドシート・カレンダーの操作に利用
+できることが多すぎてよくわかっていない．
+'
+
+    - section:
+      - name: Kubernetes
+        logo: images/logos/Kubernetes.png
+        url: https://kubernetes.io/
+        summary: '
+docker compose で本番環境デプロイを行っていたが，Kubernetesの方が良さそうなので勉強中．
+'

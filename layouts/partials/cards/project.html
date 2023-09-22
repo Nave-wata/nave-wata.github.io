@@ -22,8 +22,8 @@
                 {{ if .url }}
                 <span>{{ .url }}</span>
                 <br/>
-                {{ else if .disable }}
-                <span>{{ i18n "project_disabled" }}</span>
+                {{ else if .status }}
+                <span>{{ .status }}</span>
                 <br/>
                 {{ end }}
                 <span>{{ .role }}</span>

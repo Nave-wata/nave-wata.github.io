@@ -186,7 +186,7 @@ Google Spread シートのデータから，Slack や Discord 等の API を叩�
         logo: images/logos/AndroidStudio.png
         url: https://developer.android.com/
         summary: '
-Pythonで作成した取り込んだ音を増幅する簡単な補聴器代わりソフトウェアを移植したことがある．
+Python3で作成した取り込んだ音を増幅する簡単な補聴器代わりソフトウェアを移植したことがある．
 SQLiteを利用してゲーム進行状況を保存する放置ゲームを途中まで作成したことがある．
 '
 
@@ -232,7 +232,7 @@ MariaDBを利用する前に利用していた．
         logo: images/logos/RaspberryPI.png
         url: https://www.raspberrypi.com/
         summary: '
-Proxmoxを用いたサーバを構築したことがある．
+Proxmox（pimox7）を用いたサーバを構築したことがある．
 Zabbixを利用した監視サーバを構築したことがある．
 '
 
@@ -316,8 +316,8 @@ Laravel の WebSocket を利用するために利用したことがある．
         skillIcon: https://skillicons.dev/icons?i=ai&theme=light
         # url: 
         summary: '
-Pythonを用いて数字の認識や，モデルを作成して画像認識，文書生成などを行ったことがある．
-Pythonを用いて取り込んだ音声から種類を判別するAIを作成したことがある（低制度）
+Python3を用いて数字の認識や，モデルを作成して画像認識，文書生成などを行ったことがある．
+Python3を用いて取り込んだ音声から種類を判別するAIを作成したことがある（低精度）
 '
 
       - name: Figma

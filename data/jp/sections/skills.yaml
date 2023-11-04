@@ -312,8 +312,8 @@ Laravel フロントエンドのビルドツールとして利用したことが
 Laravel の WebSocket を利用するために利用したことがある．
 '
 
-      - name: AI
-        skillIcon: https://skillicons.dev/icons?i=ai&theme=light
+      - name: 機械学習
+        skillIcon:
         # url: 
         summary: '
 Python3を用いて数字の認識や，モデルを作成して画像認識，文書生成などを行ったことがある．

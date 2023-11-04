@@ -83,10 +83,10 @@ projects:
 
   - name: 走れ！すすむ君！
     role: サポート
-    timeline: "2023年7月5日 ~ 現在"
+    timeline: "2023年7月5日 ~ 11月3日"
     repo: https://github.com/Obanyan2023/2023-Kitayama
     url: https://susumukun.vercel.app/
-    summary: 文化祭的なものの出し物．ゼミで作成中
+    summary: 文化祭的なものの出し物．ゼミで作成
     tags: [ "Reactjs", "Expressjs", "TypeScript", "チーム" ]
 
   - name: TECHMEET
@@ -153,7 +153,6 @@ projects:
 
   - name: mobile-order
     role: サポート
-    repo: https://github.com/oithxs/mobile-order
     timeline: "2022年8月23日 ~ 2022年11月4日"
     repo: https://github.com/oithxs/mobile-order
     summary: 文化祭的なものの出し物で，モバイルオーダーWEBアプリを使用するために作成

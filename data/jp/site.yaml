@@ -8,7 +8,7 @@ Nave-wataは，当サイトにコンテンツを掲載するにあたって，�
 安全なものであるか等について保証をするものではなく，何らの責任を負うものではありません．"
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Nave-wata のポートフォリオと個人ブログ
+description: Nave-wata のポートフォリオと個人ブログ．Nave-wataの軽い自己紹介や保有技術・今までの成果物の概要などを掲載しています．また，気が向いた際には記事の投稿を行う予定です．
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -25,6 +25,6 @@ customMenus:
 openGraph:
   title: Nave-wataのブログ
   type: website
-  description: Nave-wata のポートフォリオと個人ブログ
+  description: Nave-wata のポートフォリオと個人ブログ．Nave-wataの軽い自己紹介や保有技術・今までの成果物の概要などを掲載しています．また，気が向いた際には記事の投稿を行う予定です．
   image: images/author/Nave-wata.png
   url: https://nave-wata.com

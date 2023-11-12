@@ -1,5 +1,5 @@
 {{ $author:= site.Data.author | default (index site.Data site.Language.Lang).author }}
-{{ $authorImage:= "/images/default-avatar.png" | default $author.image }}
+{{ $authorImage:= $author.image | default "/images/default-avatar.png" }}
 {{ $authorImage := resources.Get $authorImage }}
 {{ if and $authorImage (and (ne $authorImage.MediaType.SubType "svg") ( ne $authorImage.MediaType.SubType "gif")) }}
 {{ $authorImage = $authorImage.Fit "148x148" }}
